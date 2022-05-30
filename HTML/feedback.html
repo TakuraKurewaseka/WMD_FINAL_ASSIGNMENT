@@ -45,7 +45,8 @@
                     <br/>
 
                     <label for="review">Review</label>
-                    <input type="text" name="review" id="review" required placeholder="Review" oninvalid="setCustomValidity('Please enter Your Rieview before proceeding !!')" oninput="setCustomValidity('')">
+                    <textarea name="review" id="review" required placeholder="Review" rows="4" cols="50" oninvalid="setCustomValidity('Please enter Your Rieview before proceeding !!')" oninput="setCustomValidity('')">
+                    </textarea>
                     <br/>
 
                     <input type="reset" value="Clear">
@@ -53,6 +54,13 @@
 
                 </fieldset>
             </form>
+
+            
+        <script>
+            function ValidateData(){
+                alert('Thank you for your review');
+            }
+        </script>
 
         </div>
 
