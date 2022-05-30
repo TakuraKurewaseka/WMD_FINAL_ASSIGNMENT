@@ -30,7 +30,6 @@ header>a
     border-width: 1px;
     border-style: solid;
     border-color: black;
-    font-size: 100%;
 }
 
 .navigation
@@ -55,6 +54,12 @@ header>a
 {
     list-style-type: none;
     display: inline;
+    padding: 20px;
+   position:top;                            
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: bold;
+   color:white;
     
 }
 
@@ -133,7 +138,6 @@ body
 }
 
 #fldsetcontrols>input[type="text"],
-#fldsetcontrols>select,
 #fldsetcontrols>textarea
 {
     width:450px;
@@ -147,16 +151,28 @@ body
     margin-bottom:0px;
 }
 #fldsetcontrols>legend{
-    color: green;
-    background-image:radial-gradient(cyan, azure, lime);
+    color: blue;
+    background-image:radial-gradient(cyan, gray, purple);
     border-radius: 5px;
 }
 #fldsetcontrols>input[type="submit"],
 #fldsetcontrols>input[type="reset"]{
     height: 28px;
-    background-color: lightsteelblue;
-    color:red;
+    background-color:beige;
+    color:aquamarine;
     width:100px;
     border-radius: 5px;
+}
+
+#review
+{
+    width:550px;
+
+    height:500px;
+    cursor: progress;
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+ 
 }
 
